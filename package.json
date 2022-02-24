@@ -4,6 +4,7 @@
   "description": "PixiJS webpack typescript starter",
   "main": "index.js",
   "dependencies": {
+    "@tauri-apps/api": "^1.0.0-rc.1",
     "pixi.js": "^6.2.2"
   },
   "devDependencies": {
@@ -18,7 +19,9 @@
   "scripts": {
     "start": "webpack-dev-server",
     "build": "webpack",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tauri": "tauri",
+    "tauri-dev": "tauri dev"
   },
   "repository": {
     "type": "git",
