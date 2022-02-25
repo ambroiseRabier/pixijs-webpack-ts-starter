@@ -21,7 +21,8 @@
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1",
     "tauri": "tauri",
-    "tauri-dev": "tauri dev"
+    "tauri-dev": "tauri dev",
+    "tauri-build": "tauri build && explorer \".\\src-tauri\\target\\release\\bundle\\msi\""
   },
   "repository": {
     "type": "git",
