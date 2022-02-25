@@ -8,7 +8,12 @@ import {Application, Sprite} from 'pixi.js';
 
 
 
-const app = new Application();
+const app = new Application({
+  // You should also update tauri.config.json is you change width or height.
+  width: 800,
+  height: 600,
+});
+
 document.body.appendChild(app.view);
 
 

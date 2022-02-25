@@ -57,7 +57,7 @@
         "title": "PixiJS Webpack TS Starter",
         "width": 800,
         "height": 600,
-        "resizable": true,
+        "resizable": false,
         "fullscreen": false
       }
     ],

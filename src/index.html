@@ -3,6 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <title>Title</title>
+  <style>
+    /* If you ever need a to make a separate file for stye, you need to update webpack config. */
+    body {
+      /* Body for some unknown reason is 604 width, but the window and canvas itself is 600 width, so let's ignore that. */
+      margin: 0px;
+      overflow: hidden;
+    }
+  </style>
 </head>
 <body>
 <script src="bundle.js" type="module"></script>
