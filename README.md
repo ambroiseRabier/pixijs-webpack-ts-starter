@@ -97,3 +97,10 @@ Warning: I had no issue with install and uninstall, but I cannot assure you ther
 Warning: Installing in a write protected directory will result in an error without admin rights.
 
 ![readme-img/img_5.png](readme-img/img_5.png)
+
+
+## Animated sprites
+
+I have made a helper function based on https://github.com/pixijs/pixijs/pull/3676 .
+If you want to use pixiJS loader instead, you will need to use CopyWebpackPlugin to add
+assets file in the build.
