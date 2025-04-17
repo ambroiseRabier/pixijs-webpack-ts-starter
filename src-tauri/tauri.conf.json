@@ -61,8 +61,8 @@
     "windows": [
       {
         "title": "PixiJS Webpack TS Starter",
-        "width": 800,
-        "height": 600,
+        "width": 720,
+        "height": 1280,
         "resizable": false,
         "fullscreen": false,
         "center": true

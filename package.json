@@ -5,16 +5,21 @@
   "main": "index.js",
   "dependencies": {
     "@tauri-apps/api": "^1.0.0-rc.1",
-    "pixi.js": "^6.2.2"
+    "gsap": "^3.12.7",
+    "pixi.js": "^8.9.1"
   },
   "devDependencies": {
     "@tauri-apps/cli": "^1.0.0-rc.5",
+    "eslint": "^9.24.0",
+    "eslint-config-prettier": "^10.1.2",
     "file-loader": "^6.2.0",
-    "ts-loader": "^9.2.6",
-    "typescript": "^4.5.5",
-    "webpack": "^5.69.1",
-    "webpack-cli": "^4.9.2",
-    "webpack-dev-server": "^4.7.4"
+    "prettier": "^3.5.3",
+    "ts-loader": "^9.5.2",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.30.1",
+    "webpack": "^5.99.5",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.1"
   },
   "scripts": {
     "start": "webpack-dev-server",
@@ -22,7 +27,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "tauri": "tauri",
     "tauri-dev": "tauri dev",
-    "tauri-build": "tauri build && explorer \".\\src-tauri\\target\\release\\bundle\\msi\""
+    "tauri-build": "tauri build && explorer \".\\src-tauri\\target\\release\\bundle\\msi\"",
+    "prettier": "node --experimental-strip-types node_modules/prettier/bin/prettier.cjs . --write",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",

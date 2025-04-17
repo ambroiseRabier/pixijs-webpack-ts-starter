@@ -4,11 +4,19 @@
   <meta charset="UTF-8">
   <title>Title</title>
   <style>
-    /* If you ever need a to make a separate file for stye, you need to update webpack config. */
+    /* If you ever need a to make a separate file for style, you need to update the webpack config. */
     body {
       /* Body for some unknown reason is 604 width, but the window and canvas itself is 600 width, so let's ignore that. */
       margin: 0px;
       overflow: hidden;
+
+      /* Take all the screen space */
+      height: 100vh;
+
+      /* Center the canvas. */
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
   </style>
 </head>
